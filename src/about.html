@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About Us | The Weekly Options List</title>
+	<meta name="description" content="A ranked list of the BEST weekly options to sell, curated by a proven algorithm that scans thousands of options every week.">
+	<meta name="keywords" content="options, selling options, weekly options, puts, calls, wheel, wheel strategy, quant, algorithm, options algorithm guy">
+	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">-->
+    
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js" type="text/javascript"></script>
+
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+	<body id="about">
+        
+        <nav class="topnav" id="mainnav">
+            <a class="nav logo" href="index.html">
+                <img src="img/logo.png" alt="The Weekly Options List: Powered by the EVOLVE Algorithm" class="desk">
+                <img src="img/tablet_logo.png" alt="The Weekly Options List: Powered by the EVOLVE Algorithm" class="tab">
+                <img src="img/mobile_logo.png" alt="The Weekly Options List: Powered by the EVOLVE Algorithm" class="mob">
+                
+            </a>
+            <ul class="menu_grp" id="main-menu">
+                <li class=" desktab">
+                    <a class="dropdown-toggle" href="#">LISTS</a>
+                    <ul class="dropdown">
+                        <li><a class="nav reg_menu" href="puts.html">PUTS LIST</a></li>
+                        <li><a class="nav reg_menu" href="calls.html">CALL LIST</a></li>
+                    </ul>
+                </li>
+                <li class="mob"><a class="nav reg_menu" href="puts.html">PUTS LIST</a></li>
+                <li class="mob"><a class="nav reg_menu" href="calls.html">CALL LIST</a></li>
+
+                <li><a class="nav reg_menu" href="performance.html">PERFORMANCE</a></li>
+                <li><a class="nav reg_menu active" href="about.html">ABOUT</a></li>
+                <li><button id="login-btn" class="nav reg_menu">LOGIN</button></li>
+                <li><a class="nav btn" href="membership.html">Become a Member</a></li>
+            </ul>
+            <a href="javascript:void(0);" class="icon hamburger" onclick="menuOpener()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+        <header>
+            <div class="main">
+                <div>
+                    <h1 class="ltBlueText">Ever wish you had your own personal Quant?</h1>
+                    <h2>Hedge funds make billions of dollars by employing really smart PhDs (often called "Quants"). What if you could have your own personal Quant?</h2>
+                </div>
+            </div>
+        </header>
+        
+        <section id="about-tim" class="main_section teal_section">
+            <div class="main">
+                <div>
+                    <h3 class="whiteText">Now You Can: Meet Tim, aka the Options Algorithm Guy!</h3>
+                    <p class="whiteText">Tim has a PhD in Astrophysics, and was a professional Astronomer for 10 years. He’s interviewed with the major Hedge funds, but wanted to help everyone, not just billionaires. Using his knowledge of math, probability, statistics, and computer science, he developed the EVOLVE Algorithm.</p>
+                    <p class="whiteText"><a href="https://twitter.com/OptionsAlgoGuy" target="_blank" class="whiteText">Follow him on Twitter for more: @OptionsAlgoGuy</a></p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="about-slider" class="main_section ">
+            <div class="main">
+                <div>
+                    <h3 class="ltBlueText">What Members Are Saying</h3>
+                    <div class="about_slider">
+                        <div class="slide" id="slide-01">
+                            <div class="slide_cont">
+                                <div class="slide_txt">
+                                    <p>"What I appreciate about the service is that it allows me to identify opportunities I want to research further. It keeps me from wasting time and that’s a big deal for me. It also helps to provide support for or against other opportunities I find. Helps me to make smarter decisions. I also appreciate the performance record to prove success/failure of the recommendations. Transparency is always good."</p>
+                                    <p>-- Christian L., member since April 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" id="slide-02">
+                            <div class="slide_cont">
+                                <div class="slide_txt">
+                                    <p>"I think I owe you some commissions... I've been sitting on some amount of cash for years struggling to find a successful way/method to put it to use. And certainly at this point very thankful that you brought up this method."</p>
+                                    <p>-- Mike, friend (he later sent me 2 bottles of very nice bourbon as a formal thank you!)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" id="slide-03">
+                            <div class="slide_cont">
+                                <div class="slide_txt">
+                                    <p>"You may be the group MVP at least for me, Tim. Your weekly list makes me great money every time I review it and pick a name or two."</p>
+                                    <p>-- Darren, member of Slack stock group</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" id="slide-04">
+                            <div class="slide_cont">
+                                <div class="slide_txt">
+                                    <p>"The wheel strategy and the inventive screener algorithm have changed the way I invest in the market. Making use of inherent market volatility to gain returns on good stocks has opened a whole new way of making even more money. The screener algorithm is uniquely good at helping pick out good stocks that are likely to generate the best weekly returns while keeping minimal risk."</p>
+                                    <p>-- Kushal, friend</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" id="slide-05">
+                            <div class="slide_cont">
+                                <div class="slide_txt">
+                                    <p>"Dude - this list is money. Just about every one of those stocks was a great long pick (which obviously also makes it a good put play)."</p>
+                                    <p>-- Darren (different time)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" id="slide-06">
+                            <div class="slide_cont">
+                                <div class="slide_txt">
+                                    <p class="h2">"I love this tool!"</p>
+                                    <p>-- Steve L., member since March 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="about-videos" class="main_section cyan_section">
+            <div class="main">
+                <div>
+                    <h3 class="ltBlueText">Still Don’t Believe?</h3>
+                    <p>If you don't believe us, believe the guy in the videos below. He's not our friend, we don't know him, but he reviewed our service and tested out our Lists for 10 weeks! Watch the videos below to see what he thinks:</p>
+                    <div class="video_cont">
+                        <div class="tube_cont">
+                            <iframe height="315" width="560" class="tube_frame" src="https://www.youtube.com/embed/4JRlEduuDVo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <div class="tube_cont">
+                            <iframe height="315" width="560" class="tube_frame" src="https://www.youtube.com/embed/kABR6JVzrao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+        <section id="about-contact" class="main_section">
+            <div class="main">
+                <div>
+                    <h3 class="ltBlueText">Let's Chat!</h3>
+                    <p>Reach out in the form below with any questions. We’ll reply within 24 hours to any inquiries.</p>
+                    <form id="contact-form" name="contact-form" method="POST" data-netlify="true" netlify>
+                        <div class="form_row">
+                            <label for="full-name" class="form_50"><input class="" type="text" placeholder="Full Name" id="full-name" name="full-name" required></label>
+                            <label for="email" class="form_50"><input class="" type="email" placeholder="Email Address" id="email" name="email" required></label>
+                        </div>
+                        <div class="form_row">
+                            <label for="message" class="form_100"><textarea placeholder="Message Here..."  id="message" name="message"></textarea></label>
+
+                        </div>
+                        <div class="form_row">
+                            <button class="form_100 btn green_btn" id="submit" name="submit" type="submit">Submit</button>
+                        </div>
+                        
+                        
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        
+        <footer class="main_section">
+            <div class="main">
+                <div>
+                    <p class="fineprint">Disclaimer: Weekly Options List is not a financial advisor and none of the content should be considered financial advice; this site is for informational/educational purposes only. Any content listed here is purely based on my opinions and/or personal analysis; I'm just a dude who likes to crunch numbers. I am in no way affiliated with any stock or company that appears in my content. I also cannot promise profits; historical performance in the stock market does not guarantee future success. Investing in the stock market is inherently risky. Any stock you invest in could potentially go to zero. Do not invest/risk money that you cannot afford to lose.</p>
+                    <p class="fineprint">&copy;2023 The Weekly Options List</p>
+                </div>
+            </div>
+        
+        </footer>
+
+        <script src="js/scripts.js"></script>
+        <script src="js/about.js"></script>
+	</body>
+
+</html>

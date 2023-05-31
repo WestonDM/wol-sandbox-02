@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calls List | The Weekly Options List</title>
+	<meta name="description" content="A ranked list of the BEST weekly options to sell, curated by a proven algorithm that scans thousands of options every week.">
+	<meta name="keywords" content="options, selling options, weekly options, puts, calls, wheel, wheel strategy, quant, algorithm, options algorithm guy">
+	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">-->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" type="text/javascript"></script>    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tabulator/5.4.4/css/tabulator.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tabulator/5.4.4/js/tabulator.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+	<body id="home">
+        
+        <nav class="topnav" id="mainnav">
+            <a class="nav logo" href="index.html">
+                <img src="img/logo.png" alt="The Weekly Options List: Powered by the EVOLVE Algorithm" class="desk">
+                <img src="img/tablet_logo.png" alt="The Weekly Options List: Powered by the EVOLVE Algorithm" class="tab">
+                <img src="img/mobile_logo.png" alt="The Weekly Options List: Powered by the EVOLVE Algorithm" class="mob">
+                
+            </a>
+            <ul class="menu_grp" id="main-menu">
+                <li class=" desktab">
+                    <a class="dropdown-toggle active" href="#">LISTS</a>
+                    <ul class="dropdown">
+                        <li><a class="nav reg_menu" href="puts.html">PUTS LIST</a></li>
+                        <li><a class="nav reg_menu active" href="calls.html">CALL LIST</a></li>
+                    </ul>
+                </li>
+                <li class="mob"><a class="nav reg_menu" href="puts.html">PUTS LIST</a></li>
+                <li class="mob"><a class="nav reg_menu active" href="calls.html">CALL LIST</a></li>
+
+                <li><a class="nav reg_menu" href="performance.html">PERFORMANCE</a></li>
+                <li><a class="nav reg_menu" href="about.html">ABOUT</a></li>
+                <li class="user-info"><button id="login-btn" class="nav reg_menu">LOGIN</button></li>
+                <li><a class="nav btn" href="membership.html" id="member-link">Become a Member</a></li>
+                <li><button class="nav btn hidden" id="acct-deets">Manage Account</button></li>
+            </ul>
+            <a href="javascript:void(0);" class="icon hamburger" onclick="menuOpener()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+        <header>
+            <div class="main">
+                <div>
+                    <h1>Calls List</h1>
+                    <h2>Below is a <strong>FREE</strong> sample of the Weekly Options List (Calls) for this week</h2>
+                </div>
+            </div>
+        </header>
+        
+        <section id="calls-log" class="main_section">
+            <div class="main">
+                <h2>To see the FULL List and live-filter 2000+ ranked Calls, <a href="" class="greenText h2 member_link" id="join-link">Become A Member</a> or <a href="" class="greenText h2 member_link" id="login-link">Login</a> to your account.</h2>
+            </div>
+        </section>
+        <section id="calls-capital" class="main_section cyan_section capital_sect">
+            <div class="main">
+                <div>
+                    <h3 class="ltBlueText">Enter the total capital you are willing to invest this week for Calls:</h3>
+                    <input id="filter-value" type="text" placeholder="$">
+                    <p class="fineprint blackText">You can live-filter this list by entering values in the columns below. All listed options are short Calls (e.g., calls meant to be sold).<br>
+                        This list is updated before market open each week (typically on Saturdays).</p>
+
+                    
+                </div>
+            </div>
+        </section>
+        <section id="calls-download" class="main_section download_sect">
+            <div class="main">
+                <div>
+                    <button id="download" class="btn">Download</button>
+                </div>
+            </div>
+        </section>
+        <section id="calls-table-hl" class="main_section blue_section table_hl">
+            <div class="main">
+                <h4 class="whiteText">Higher-ranked Calls perform better than lower-ranked Calls! That means the EVOLVE algorithm is doing its job. If you want to examine performance for any specific week, use the interactive list below.</h4>
+                
+            </div>
+        </section>
+        <section id="calls-table" class="blue_section table_section">
+            <div class="table_main">
+                <div>
+                    <div class="options_table"></div>
+                </div>
+            </div>
+        </section>
+        <footer class="main_section">
+            <div class="main">
+                <div>
+                    <p class="fineprint">Disclaimer: Weekly Options List is not a financial advisor and none of the content should be considered financial advice; this site is for informational/educational purposes only. Any content listed here is purely based on my opinions and/or personal analysis; I'm just a dude who likes to crunch numbers. I am in no way affiliated with any stock or company that appears in my content. I also cannot promise profits; historical performance in the stock market does not guarantee future success. Investing in the stock market is inherently risky. Any stock you invest in could potentially go to zero. Do not invest/risk money that you cannot afford to lose.</p>
+                    <p class="fineprint">&copy;2023 The Weekly Options List</p>
+                </div>
+            </div>
+        
+        </footer>
+        
+
+    	<script name="json_data" type="text/javascript" src="json/calls.json"></script>
+        <script src="js/scripts.js"></script>
+        <script src="js/calls.js" type="text/javascript">        
+    </script>
+	</body>
+
+</html>

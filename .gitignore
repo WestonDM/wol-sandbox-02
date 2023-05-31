@@ -1,2 +1,5 @@
-/zOLD
-/_notes
+# Local Netlify folder
+# .netlify
+zOLD/
+_notes/
+/.netlify/state.json

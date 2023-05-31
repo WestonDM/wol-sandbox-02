@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The Weekly Options List | Take the guesswork out of options trading</title>
+	<meta name="description" content="A ranked list of the BEST weekly options to sell, curated by a proven algorithm that scans thousands of options every week.">
+	<meta name="keywords" content="options, selling options, weekly options, puts, calls, wheel, wheel strategy, quant, algorithm, options algorithm guy">
+	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">-->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+</head>
+
+	<body id="home">
+        
+        <nav class="topnav" id="mainnav">
+            <a class="nav logo" href="index.html">
+                <img src="img/logo.png" alt="The Weekly Options List: Powered by the EVOLVE Algorithm" class="desk">
+                <img src="img/tablet_logo.png" alt="The Weekly Options List: Powered by the EVOLVE Algorithm" class="tab">
+                <img src="img/mobile_logo.png" alt="The Weekly Options List: Powered by the EVOLVE Algorithm" class="mob">
+                
+            </a>
+            <ul class="menu_grp" id="main-menu">
+                <li class=" desktab">
+                    <a class="dropdown-toggle" href="#">LISTS</a>
+                    <ul class="dropdown">
+                        <li><a class="nav reg_menu" href="puts.html">PUTS LIST</a></li>
+                        <li><a class="nav reg_menu" href="calls.html">CALL LIST</a></li>
+                    </ul>
+                </li>
+                <li class="mob"><a class="nav reg_menu" href="puts.html">PUTS LIST</a></li>
+                <li class="mob"><a class="nav reg_menu" href="calls.html">CALL LIST</a></li>
+
+                <li><a class="nav reg_menu" href="performance.html">PERFORMANCE</a></li>
+                <li><a class="nav reg_menu" href="about.html">ABOUT</a></li>
+                <li class="user-info"><button id="login-btn" class="nav reg_menu">LOGIN</button></li>
+                <li><a class="nav btn" href="membership.html" id="member-link">Become a Member</a></li>
+                <li><button class="nav btn hidden" id="acct-deets">Manage Account</button></li>
+            </ul>
+            <a href="javascript:void(0);" class="icon hamburger" onclick="menuOpener()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+        <header>
+            <div class="main">
+                <div>
+                    <h1>TAKE THE GUESSWORK OUT OF OPTIONS TRADING</h1>
+                    <h2><button id="member-btn" class="btn whiteText white_btn">Become a Member</button></h2>
+                </div>
+            </div>
+        </header>
+        
+        <section id="home-faq" class="main_section">
+            <div class="main">
+                <div id="accordion">
+                    <h3 class="greenText h3">What is a QUANT?</h3>
+                    <div>
+                        <p>Hedge funds make billions of dollars by employing really smart PhDs (often called "Quants"). What if you could have your own personal Quant?</p>
+                    </div>
+                    <h3 class="greenText h3">Leverage a Profitable Algorithm</h3>
+                    <div>
+                        <p>There are lots of ways to make (and lose) money in the stock market. But most investors agree: selling options--if done right--can be very profitable. What if your Quant wrote an algorithm that optimized selling options?</p>
+
+                    </div>
+                    <h3 class="greenText h3">EVOLVE Algorithm</h3>
+                    <div>
+                        <p>Developed by our dedicated PhD, The EVOLVE Algorithm calculates the Expected Value for Options by Learning Volatility Events. In short, it optimizes selling options. EVOLVE factors in not only the premium every option will pay, but also the probability of winning the trade. Without probability, you're just guessing. </p>
+                    </div>
+                    <h3 class="greenText h3">Make Money, Save Time!</h3>
+                    <div>
+                        <p>Instead of having to sift through thousands of possible options each week, you can use the interactive Puts and Calls Lists to find the options that both YOU and EVOLVE like. You can even filter the Lists to your specific preferences (min ROI, how far out of the money, dividends, earnings, etc.). That's a big edge when it comes to profitability and time, because you're making more money in less time.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="why-join" class="main_section blue_section">
+            <div class="main">
+                <div>
+                    <h2 class="whiteText">Why Join?</h2>
+                    <p class="whiteText">For a low monthly fee of $20, you get:</p>
+                </div>
+                <div class="icon_group">
+                    <div class="icon_txt">
+                        <img src="img/WOL-Icon__Rates-List.png" alt="rates icon">
+                        <p class="whiteText">Weekly Interactive Ranked List</p>
+                    </div>
+                    <div class="icon_txt">
+                        <img src="img/WOL-Icon__Filters.png" alt="filters icon">
+                        <p class="whiteText">Customized Filters To Suit Your Needs</p>
+                    </div>
+                    <div class="icon_txt">
+                        <img src="img/WOL-Icon__Slack.png" alt="Slack icon">
+                        <p class="whiteText">Access To Our Exclusive SLACK Discussion Group</p>
+                    </div>
+                </div>
+                <button id="join-btn" class="btn whiteText white_btn">Join Now</button>
+
+            </div>
+        </section>
+        <footer class="main_section">
+            <div class="main">
+                <div>
+                    <p class="fineprint">Disclaimer: Weekly Options List is not a financial advisor and none of the content should be considered financial advice; this site is for informational/educational purposes only. Any content listed here is purely based on my opinions and/or personal analysis; I'm just a dude who likes to crunch numbers. I am in no way affiliated with any stock or company that appears in my content. I also cannot promise profits; historical performance in the stock market does not guarantee future success. Investing in the stock market is inherently risky. Any stock you invest in could potentially go to zero. Do not invest/risk money that you cannot afford to lose.</p>
+                    <p class="fineprint">&copy;2023 The Weekly Options List</p>
+                </div>
+            </div>
+        
+        </footer>
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" type="text/javascript"></script>
+        <script src="js/scripts.js"></script>
+        <script src="js/home.js"></script>
+	</body>
+
+</html>
