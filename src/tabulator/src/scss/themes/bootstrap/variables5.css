@@ -1,6 +1,6 @@
 /*
 Error: ("primary": #0d6efd, "secondary": #6c757d, "success": #198754, "info": #0dcaf0, "warning": #ffc107, "danger": #dc3545, "light": #f8f9fa, "dark": #212529) isn't a valid CSS value.
-        on line 94 of /Users/chrisweston-wdm/Dropbox/1-PROJECTS/0001-WDM CLIENT Projects/0001-Little Red Monkey Design/0001- Weekly Options List Website/09-Dev-Working Files/WOL Sandbox/src/tabulator/src/scss/themes/bootstrap/variables5.scss
+        on line 94 of /Users/chrisweston-wdm/Dropbox/1-PROJECTS/0001-WDM CLIENT Projects/0001-Little Red Monkey Design/0001- Weekly Options List Website/09-Dev-Working Files/WOL Sandbox 2/wol-github-sandbox-2/wol-sandbox-02/src/tabulator/src/scss/themes/bootstrap/variables5.scss
 
 89:   "dark":       $dark
 90: ) !default;
@@ -15,7 +15,7 @@ Error: ("primary": #0d6efd, "secondary": #6c757d, "success": #198754, "info": #0
 99: $min-contrast-ratio:   4.5 !default;
 
 Backtrace:
-/Users/chrisweston-wdm/Dropbox/1-PROJECTS/0001-WDM CLIENT Projects/0001-Little Red Monkey Design/0001- Weekly Options List Website/09-Dev-Working Files/WOL Sandbox/src/tabulator/src/scss/themes/bootstrap/variables5.scss:94
+/Users/chrisweston-wdm/Dropbox/1-PROJECTS/0001-WDM CLIENT Projects/0001-Little Red Monkey Design/0001- Weekly Options List Website/09-Dev-Working Files/WOL Sandbox 2/wol-github-sandbox-2/wol-sandbox-02/src/tabulator/src/scss/themes/bootstrap/variables5.scss:94
 /Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/script/value/map.rb:52:in `to_s'
 /Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/script/tree/funcall.rb:171:in `join'
 /Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/script/tree/funcall.rb:171:in `to_value'
@@ -54,4 +54,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: (\"primary\": #0d6efd, \"secondary\": #6c757d, \"success\": #198754, \"info\": #0dcaf0, \"warning\": #ffc107, \"danger\": #dc3545, \"light\": #f8f9fa, \"dark\": #212529) isn't a valid CSS value.\A         on line 94 of /Users/chrisweston-wdm/Dropbox/1-PROJECTS/0001-WDM CLIENT Projects/0001-Little Red Monkey Design/0001- Weekly Options List Website/09-Dev-Working Files/WOL Sandbox/src/tabulator/src/scss/themes/bootstrap/variables5.scss\A \A 89:   \"dark\":       $dark\A 90: ) !default;\A 91: // scss-docs-end theme-colors-map\A 92: \A 93: // scss-docs-start theme-colors-rgb\A 94: $theme-colors-rgb: map-loop($theme-colors, to-rgb, \"$value\") !default;\A 95: // scss-docs-end theme-colors-rgb\A 96: \A 97: // The contrast ratio to reach against white, to determine if color changes from \"light\" to \"dark\". Acceptable values for WCAG 2.0 are 3, 4.5 and 7.\A 98: // See https://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast\A 99: $min-contrast-ratio:   4.5 !default;"; }
+  content: "Error: (\"primary\": #0d6efd, \"secondary\": #6c757d, \"success\": #198754, \"info\": #0dcaf0, \"warning\": #ffc107, \"danger\": #dc3545, \"light\": #f8f9fa, \"dark\": #212529) isn't a valid CSS value.\A         on line 94 of /Users/chrisweston-wdm/Dropbox/1-PROJECTS/0001-WDM CLIENT Projects/0001-Little Red Monkey Design/0001- Weekly Options List Website/09-Dev-Working Files/WOL Sandbox 2/wol-github-sandbox-2/wol-sandbox-02/src/tabulator/src/scss/themes/bootstrap/variables5.scss\A \A 89:   \"dark\":       $dark\A 90: ) !default;\A 91: // scss-docs-end theme-colors-map\A 92: \A 93: // scss-docs-start theme-colors-rgb\A 94: $theme-colors-rgb: map-loop($theme-colors, to-rgb, \"$value\") !default;\A 95: // scss-docs-end theme-colors-rgb\A 96: \A 97: // The contrast ratio to reach against white, to determine if color changes from \"light\" to \"dark\". Acceptable values for WCAG 2.0 are 3, 4.5 and 7.\A 98: // See https://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast\A 99: $min-contrast-ratio:   4.5 !default;"; }

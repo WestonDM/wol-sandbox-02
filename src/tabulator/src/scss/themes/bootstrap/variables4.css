@@ -1,6 +1,6 @@
 /*
 Error: $color: 'theme-color("primary")' is not a color for `darken'
-        on line 155 of /Users/chrisweston-wdm/Dropbox/1-PROJECTS/0001-WDM CLIENT Projects/0001-Little Red Monkey Design/0001- Weekly Options List Website/09-Dev-Working Files/WOL Sandbox/src/tabulator/src/scss/themes/bootstrap/variables4.scss
+        on line 155 of /Users/chrisweston-wdm/Dropbox/1-PROJECTS/0001-WDM CLIENT Projects/0001-Little Red Monkey Design/0001- Weekly Options List Website/09-Dev-Working Files/WOL Sandbox 2/wol-github-sandbox-2/wol-sandbox-02/src/tabulator/src/scss/themes/bootstrap/variables4.scss
 
 150: //
 151: // Style anchor elements.
@@ -15,7 +15,7 @@ Error: $color: 'theme-color("primary")' is not a color for `darken'
 160: // Style p element.
 
 Backtrace:
-/Users/chrisweston-wdm/Dropbox/1-PROJECTS/0001-WDM CLIENT Projects/0001-Little Red Monkey Design/0001- Weekly Options List Website/09-Dev-Working Files/WOL Sandbox/src/tabulator/src/scss/themes/bootstrap/variables4.scss:155
+/Users/chrisweston-wdm/Dropbox/1-PROJECTS/0001-WDM CLIENT Projects/0001-Little Red Monkey Design/0001- Weekly Options List Website/09-Dev-Working Files/WOL Sandbox 2/wol-github-sandbox-2/wol-sandbox-02/src/tabulator/src/scss/themes/bootstrap/variables4.scss:155
 /Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/script/tree/funcall.rb:311:in `reformat_argument_error'
 /Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/script/tree/funcall.rb:158:in `rescue in _perform'
 /Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/script/tree/funcall.rb:127:in `_perform'
@@ -52,4 +52,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: $color: 'theme-color(\"primary\")' is not a color for `darken'\A         on line 155 of /Users/chrisweston-wdm/Dropbox/1-PROJECTS/0001-WDM CLIENT Projects/0001-Little Red Monkey Design/0001- Weekly Options List Website/09-Dev-Working Files/WOL Sandbox/src/tabulator/src/scss/themes/bootstrap/variables4.scss\A \A 150: //\A 151: // Style anchor elements.\A 152: \A 153: $link-color:                theme-color(\"primary\") !default;\A 154: $link-decoration:           none !default;\A 155: $link-hover-color:          darken($link-color, 15%) !default;\A 156: $link-hover-decoration:     underline !default;\A 157: \A 158: // Paragraphs\A 159: //\A 160: // Style p element."; }
+  content: "Error: $color: 'theme-color(\"primary\")' is not a color for `darken'\A         on line 155 of /Users/chrisweston-wdm/Dropbox/1-PROJECTS/0001-WDM CLIENT Projects/0001-Little Red Monkey Design/0001- Weekly Options List Website/09-Dev-Working Files/WOL Sandbox 2/wol-github-sandbox-2/wol-sandbox-02/src/tabulator/src/scss/themes/bootstrap/variables4.scss\A \A 150: //\A 151: // Style anchor elements.\A 152: \A 153: $link-color:                theme-color(\"primary\") !default;\A 154: $link-decoration:           none !default;\A 155: $link-hover-color:          darken($link-color, 15%) !default;\A 156: $link-hover-decoration:     underline !default;\A 157: \A 158: // Paragraphs\A 159: //\A 160: // Style p element."; }
